@@ -5,6 +5,10 @@ public class Clientes {
 	
 	int  id_cliente;
 
+	public Clientes(int id_cliente) {
+		this.id_cliente = id_cliente;
+	}
+
 	public int getId_cliente() {
 		return id_cliente;
 	}
